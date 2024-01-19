@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 class Solution {
@@ -15,7 +14,6 @@ public:
             reversed = reversed * 10 + y % 10;
             y /= 10;
         }
-
         return reversed == x;
     }
 };
