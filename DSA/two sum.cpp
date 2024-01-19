@@ -1,4 +1,4 @@
-class Solution {
+class Solution {                   //Time: O(n) Space: O(n)
  public:
   vector<int> twoSum(vector<int>& nums, int target) {
     unordered_map<int, int> numToIndex;
